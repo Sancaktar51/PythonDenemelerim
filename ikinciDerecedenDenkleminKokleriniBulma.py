@@ -15,8 +15,8 @@ elif delta > 0 :
     x1 = (-b+sqrt(delta))/(2*a) 
     x2 = (-b-sqrt(delta))/(2*a) 
     
-    print("Birinci kök: ",x1)
-    print("İkinci kök: ",x2)
+    print("Birinci kök:",x1)
+    print("İkinci kök:",x2)
 else:
     x1 = (-b+sqrt(-delta))/(2*a)
     x2 = (-b-sqrt(-delta))/(2*a)
