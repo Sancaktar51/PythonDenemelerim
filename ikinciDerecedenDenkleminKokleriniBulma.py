@@ -24,4 +24,4 @@ else:
     print("Birinci sanal kök: ",x1,"i",sep="")
     print("İkinci sanal kök: ",x2,"i",sep="")
     
-input("Programı bitirmek için ENTER tuşuna basınız: ")
+input("Programı bitirmek için ENTER tuşuna basınız...")
