@@ -21,7 +21,7 @@ else:
     x1 = (-b+sqrt(-delta))/(2*a)
     x2 = (-b-sqrt(-delta))/(2*a)
     
-    print("Birinci sanal kök: ",x1,"i")
-    print("İkinci sanal kök: ",x2,"i")
+    print("Birinci sanal kök: ",x1,"i",sep="")
+    print("İkinci sanal kök: ",x2,"i",sep="")
     
 input("Programı bitirmek için ENTER tuşuna basınız: ")
