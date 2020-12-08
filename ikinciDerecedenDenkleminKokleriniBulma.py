@@ -1,4 +1,3 @@
-import time
 from math import sqrt
 
 print("ax^2 + bx + c = 0 formatındaki ikinci dereceden denklemin kökleri hesaplanacaktır")
@@ -25,5 +24,4 @@ else:
     print("Birinci sanal kök: ",x1,"i")
     print("İkinci sanal kök: ",x2,"i")
     
-time.sleep(10) 
-
+input("Programı bitirmek için ENTER tuşuna basınız: ")
