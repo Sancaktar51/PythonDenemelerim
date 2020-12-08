@@ -13,8 +13,8 @@ if delta == 0 :
     x1 = (-b+sqrt(delta))/(2*a)
     print("Çift katlı kök:",x1)
 elif delta > 0 :
-    x1 = (-b+sqrt(delta))/(2*a) #son parantezin önemini saatlerimi kaybederek öğrenmiştim
-    x2 = (-b-sqrt(delta))/(2*a) #çok sinir bozucu bir durum
+    x1 = (-b+sqrt(delta))/(2*a) 
+    x2 = (-b-sqrt(delta))/(2*a) 
     
     print("Birinci kök: ",x1)
     print("İkinci kök: ",x2)
@@ -25,5 +25,5 @@ else:
     print("Birinci sanal kök: ",x1,"i")
     print("İkinci sanal kök: ",x2,"i")
     
-time.sleep(10)
+time.sleep(10) 
 
